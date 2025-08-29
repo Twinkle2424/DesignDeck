@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Custom thin scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+    width: 1px;  /* Extra thin scrollbar */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent; /* No track background */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: rgba(150, 150, 150, 0.5); /* Light grey */
+    border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: rgba(100, 100, 100, 0.7); /* Darker grey on hover */
+}
+
+/* Firefox Support */
+.custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(150, 150, 150, 0.0) transparent;
+}
