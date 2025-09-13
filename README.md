@@ -60,5 +60,5 @@ This project is licensed under the MIT License – see the LICENSE file for deta
 
 ## Contact
 
-Made by Harsh Vekriya
+Made by Twinkle Patel
 GitHub: https://github.com/Twinkle2424
